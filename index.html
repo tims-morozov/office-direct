@@ -6,29 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Office Direct - Кресла Samurai</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
     <header class="header">
         <div class="header-section-top">
-            <img class="logo" src="img/header/logo-svg.svg" alt="Логотип Офис Dирект">
+            <img class="logo" src="img/header/logo.svg" alt="Логотип Офис Dирект">
             <div class="search">
-                <input class="search-input" type="text" placeholder="Название модели или артикул">
+                <input class="search-input hide-element" type="text" placeholder="Название модели или артикул">
             </div>
-            <p class="calling-number">+7 495 221-06-75</p>
-            <button class="call-button">Заказать звонок</button>
+            <a href="+74952210675" class="calling-number hide-element">+7 495 221-06-75</a>
+            <button class="call-button hide-element">Заказать звонок</button>
         </div>
         <div class="header-section-bottom">
-            <button class="catalog-button"><span class="catalog-btn-text">Каталог</span></button>
-            <nav class="header-nav">
+            <button class="catalog-button hide-element"><span class="catalog-btn-text">Каталог</span></button>
+            <nav class="header-nav hide-element">
                 <a href="#">О продукте</a>
                 <a href="#">Отзывы</a>
                 <a href="#">Доставка и оплаты</a>
                 <a href="#">Контакты</a>
             </nav>
             <div class="user-location">
-                <select class="location-list">
+                <select class="location-list hide-element">
                     <option>Москва</option>
                     <option>Санкт-Петербург</option>
                     <option>Новосибирск</option>
@@ -36,9 +34,12 @@
                     <option>Казань</option>
                 </select>
             </div>
-            <div class="shopping-cart">
-                <a href="#">Моя корзина<span>+1</span></a>
+            <div class="shopping-cart hide-element">
+                <a href="#" class="shopping-cart-text">Моя корзина<span class="shopping-cart-counter">+1</span></a>
             </div>
+        </div>
+        <div class="shopping-cart-mobile">
+            <a href="#" class="cart-counter-mobile">+1</a>
         </div>
     </header>
 
