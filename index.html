@@ -21,10 +21,10 @@
         <div class="header-section-bottom">
             <button class="catalog-button hide-element"><span class="catalog-btn-text">Каталог</span></button>
             <nav class="header-nav hide-element">
-                <a href="#">О продукте</a>
-                <a href="#">Отзывы</a>
-                <a href="#">Доставка и оплаты</a>
-                <a href="#">Контакты</a>
+                <a href="#!">О продукте</a>
+                <a href="#!">Отзывы</a>
+                <a href="#!">Доставка и оплаты</a>
+                <a href="#!">Контакты</a>
             </nav>
             <div class="user-location">
                 <select class="location-list hide-element">
@@ -32,23 +32,35 @@
                     <option>Санкт-Петербург</option>
                     <option>Новосибирск</option>
                     <option>Екатеринбург</option>
-                    <option>Казань</option>
                 </select>
             </div>
             <div class="shopping-cart hide-element">
-                <a href="#" class="shopping-cart-text">Моя корзина<span class="shopping-cart-counter">+1</span></a>
+                <a href="#!" class="shopping-cart-text">Моя корзина<span class="shopping-cart-counter">+1</span></a>
             </div>
         </div>
         <a class="shopping-cart-mobile">
-            <span href="#" class="cart-counter-mobile">+1</span>
+            <span href="#!" class="cart-counter-mobile">+1</span>
         </a>
     </header>
 
     <section class="hero">
-        <img src="img/hero/hero-armchair-1.png" alt="Лучшее кресло нашего магазина" class="hero-arm-chair-1">
-        <h1>Кресла Samurai на выгодных условиях по всей стране<img src="img/slider/RU.png" alt="Российский флаг"></h1>
-        <p>Здесь вам не придется покупать товар вслепую — проведите тест-драйв перед покупкой</p>
-        <button class="test-drive">Запись на тест-драйв</button>
+        <img src="img/hero/mobile-hero-bg.png" alt="Лучшее кресло нашего магазина" class="hero-arm-chair-1">
+        <h1 class="hero-header">Кресла Samurai <br> <span>на выгодных условиях</span> по всей стране</h1>
+        <button class="test-drive">Тест-драйв</button>
+        <!-- <ul class="slider-dots">
+            <li class="slide-dot"></li>
+            <li class="slide-active-dot"></li>
+            <li class="slide-dot"></li>
+            <li class="slide-dot"></li>
+            <li class="slide-dot"></li>
+        </ul> -->
+        <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+        </div>
     </section>
 
     <section class="benefits">
@@ -258,7 +270,7 @@
 
     <section class="location-google-map">
         <h2 class="visually-hidden">Адрес магазинана карте</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1997.3227697579016!2d30.278500515954722!3d59.95996926733995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696314a0ce7ac0b%3A0xc6d20952b624d082!2sRed%20Cadet!5e0!3m2!1sru!2s!4v1643132974801!5m2!1sru!2s"
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1997.3227697579016!2d30.278500515954722!3d59.95996926733995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696314a0ce7ac0b%3A0xc6d20952b624d082!2sRed%20Cadet!5e0!3m2!1sru!2s!4v1643132974801!5m2!1sru!2s"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
 
@@ -267,12 +279,12 @@
         <p>Политика конфиденциальности</p>
         <p>© 2021 Все права защищены</p>
         <nav>
-            <a href="#">О продукте</a>
-            <a href="#">Отзывы</a>
-            <a href="#">Доставка и оплата</a>
-            <a href="#">Контакты</a>
+            <a href="#!">О продукте</a>
+            <a href="#!">Отзывы</a>
+            <a href="#!">Доставка и оплата</a>
+            <a href="#!">Контакты</a>
         </nav>
-        <p>+7 495 221-06-75</p>
+        <a href="+74952210675" class="calling-number hide-element">+7 495 221-06-75</a>
         <p>zakaz@kresla-samurai.ru</p>
         <p>ул. Красного курсанта д.25, лит.в, оф. 114, бизнес-центр "RED CADET"</p>
     </footer>

@@ -22,6 +22,8 @@
     --grey-500: #576077;
     --blue-grey: #2B3350;
     --blue: #0074D4;    
+    --slider-dot: #CED2DA;
+    --slider-active-dot: #2B3350;
 }
 
 *, ::after, ::before {
@@ -32,16 +34,15 @@
     display: none;
 }
 
-html {
-    display: table;
-    margin: auto;
-    background-color: #576077;
-}
-
 body {
     margin: 0;
     height: 100%;
+    min-width: 320px;
     background-color: #FFFFFF;
+}
+
+img {
+    width: 100%;
 }
 
 .visually-hidden {
@@ -91,7 +92,6 @@ body {
 
 .shopping-cart-mobile {
     position: relative;
-    vertical-align: top;
     display: block;
     height: 24px;
     width: 24px;
@@ -114,4 +114,55 @@ body {
     border-radius: 27px;
     background-size: 19px 13px;
     vertical-align: top;
+}
+
+.map {
+    max-width: 100%;
+}
+
+.hero-header {
+    margin-top: 0px;
+    position: absolute;
+    width: 211px;
+    height: 60px;
+    left: 17px;
+    top: 79px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 120%;
+    color: #2B3350;
+}
+
+.hero-header span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 120%;
+}
+
+.test-drive {
+    margin-top: 95px;
+    position: absolute;
+    left: 16px;
+    width: 111px;
+    height: 45px;
+    background-color: var(--blue);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+
+/* .slide-dot {
+    color: var(--slider-dot);
+}
+
+.slide-active-dot {
+    color: var(--slider-active-dot);
+} */
+
+.controls > label {
+    
 }
